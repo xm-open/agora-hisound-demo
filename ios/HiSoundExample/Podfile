@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+workspace 'HiSoundExample.xcworkspace'
+platform :ios, '9.0'
+
+def local_plugin_root
+  generated_xcode_build_settings_path = File.join('.plugin_dev')
+
+  if not File.exist?(generated_xcode_build_settings_path)
+    return nil
+  end
+
+  File.foreach(generated_xcode_build_settings_path) do |line|
+    matches = line.match(/local_plugin_path\=(.*)/)
+    return matches[1].strip if matches
+  end
+  raise "local_plugin_path not found in #{generated_xcode_build_settings_path}."
+end
+
+target 'HiSoundExample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  pod 'AgoraRtcEngine_iOS', '4.1.1'
+
+  pod 'HiSoundExample', :path => File.join('HiSoundExample')
+
+  # Pods for ExtensionExample
+
+end

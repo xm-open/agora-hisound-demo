@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hisound</string>
+    <string name="effect">音效</string>
+    <string name="json_path">json路径</string>
+    <string name="chanel_support_char" translatable="false">qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890 !#$%()+-:;&lt;=.>?@[]^_{}|~,&amp;</string>
+    <string name="channel_id">Channel ID</string>
+    <string name="join">加入</string>
+    <string name="leave">离开</string>
+    <string name="init_extension">初始化插件</string>
+    <string name="hisound_extension_tip">Agora-hisound-filter插件没有开启，请看README.md了解怎么开启插件后再运行.</string>
+    <string name="ok">确定</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:textColor="#000000">
+
+    <TextView
+        android:id="@+id/des_effect"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/effect"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="#ffffff"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/url_effect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/json_path"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

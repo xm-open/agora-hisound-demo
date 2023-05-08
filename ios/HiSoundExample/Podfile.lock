@@ -1,0 +1,47 @@
+PODS:
+  - AgoraRtcEngine_iOS (4.1.1):
+    - AgoraRtcEngine_iOS/AIAEC (= 4.1.1)
+    - AgoraRtcEngine_iOS/AINS (= 4.1.1)
+    - AgoraRtcEngine_iOS/AudioBeauty (= 4.1.1)
+    - AgoraRtcEngine_iOS/ClearVision (= 4.1.1)
+    - AgoraRtcEngine_iOS/ContentInspect (= 4.1.1)
+    - AgoraRtcEngine_iOS/DRM (= 4.1.1)
+    - AgoraRtcEngine_iOS/FaceDetection (= 4.1.1)
+    - AgoraRtcEngine_iOS/ReplayKit (= 4.1.1)
+    - AgoraRtcEngine_iOS/RtcBasic (= 4.1.1)
+    - AgoraRtcEngine_iOS/SpatialAudio (= 4.1.1)
+    - AgoraRtcEngine_iOS/VirtualBackground (= 4.1.1)
+    - AgoraRtcEngine_iOS/VQA (= 4.1.1)
+  - AgoraRtcEngine_iOS/AIAEC (4.1.1)
+  - AgoraRtcEngine_iOS/AINS (4.1.1)
+  - AgoraRtcEngine_iOS/AudioBeauty (4.1.1)
+  - AgoraRtcEngine_iOS/ClearVision (4.1.1)
+  - AgoraRtcEngine_iOS/ContentInspect (4.1.1)
+  - AgoraRtcEngine_iOS/DRM (4.1.1)
+  - AgoraRtcEngine_iOS/FaceDetection (4.1.1)
+  - AgoraRtcEngine_iOS/ReplayKit (4.1.1)
+  - AgoraRtcEngine_iOS/RtcBasic (4.1.1)
+  - AgoraRtcEngine_iOS/SpatialAudio (4.1.1)
+  - AgoraRtcEngine_iOS/VirtualBackground (4.1.1)
+  - AgoraRtcEngine_iOS/VQA (4.1.1)
+  - HiSoundExample (0.1.0)
+
+DEPENDENCIES:
+  - AgoraRtcEngine_iOS (= 4.1.1)
+  - HiSoundExample (from `HiSoundExample`)
+
+SPEC REPOS:
+  trunk:
+    - AgoraRtcEngine_iOS
+
+EXTERNAL SOURCES:
+  HiSoundExample:
+    :path: HiSoundExample
+
+SPEC CHECKSUMS:
+  AgoraRtcEngine_iOS: df216a18a01c30fba926565d889c9542319252ac
+  HiSoundExample: 2c0f5554b61267f1be8c98756fe5ffa78ae369ad
+
+PODFILE CHECKSUM: b345ebc9428e93adde7b4d219022d502a51420b7
+
+COCOAPODS: 1.12.0
